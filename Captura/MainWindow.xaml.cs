@@ -24,6 +24,7 @@ namespace Captura
 
             ServiceProvider.WebCamProvider = new WebCamProvider();
 
+
             FFMpegService.FFMpegDownloader += () =>
             {
                 if (_downloader == null)
@@ -35,6 +36,7 @@ namespace Captura
                 _downloader.ShowAndFocus();
             };
 
+            Settings.Instance.Expanded = false;
             InitializeComponent();
 
             ServiceProvider.MainWindow = new MainWindowProvider(this);
@@ -65,9 +67,22 @@ namespace Captura
 
             (DataContext as MainViewModel).Init(!App.CmdOptions.NoPersist, true, !App.CmdOptions.Reset,
                 !App.CmdOptions.NoHotkeys);
-
+            try
+            {
+                UrlParse.validate(Settings.Instance.MeetingParams,
+                    Properties.Resources.ResourceManager.GetString("validateName"),
+                    Properties.Resources.ResourceManager.GetString("validateId"));
+            }
+            catch (Exception e)
+            {
+                ServiceProvider.MessageProvider.ShowError(
+                    Properties.Resources.ResourceManager.GetString("StartParamError"));
+                this.TryExit();
+            }
             if (Settings.Instance.CheckForUpdates)
                 Task.Factory.StartNew(CheckForUpdates);
+
+            ServiceProvider.SystemTray.ShowTextNotification(Settings.Instance.MeetingName, 60_000, null);
         }
 
         async void CheckForUpdates()
@@ -144,7 +159,7 @@ namespace Captura
 
             if (vm.RecorderState == RecorderState.Recording)
             {
-               bool l= ServiceProvider.MessageProvider.ShowYesNo(
+                bool l = ServiceProvider.MessageProvider.ShowYesNo(
                     Properties.Resources.ResourceManager.GetString("recordingExit"),
                     Properties.Resources.ResourceManager.GetString("ConfirmExit"));
                 return false;

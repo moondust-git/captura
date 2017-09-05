@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
-    <StartArguments>params=123</StartArguments>
+    <StartArguments>shishuo://push.51shangke.com%3fmeeting_id=598d08a981628f2c746a783b&amp;amp%3bmeeting_name=123456789&amp;amp%3bhoster_id=598aa26d23f2a81a94fd07da&amp;amp%3bhoster_name=tc949561391&amp;amp%3btimestramp=1502417343551&amp;amp%3bsign=7ca6f3310144ddd4bb7f15b5e9467479&amp;amp%3bmeeting_push_uri=cnRtcDovL3BpbGktcHVibGlzaC41MXNoYW5na2UuY24vNTEtbGl2ZS81MS1saXZlLXB1c2g1OThkMDhhOTgxNjI4ZjJjNzQ2YTc4M2I/ZT0xNTAyNDE3NDYzJnRva2VuPVhJa2wyRXpULXFVaGdrZXN3aEEwdDJNVEFnYkFJZHQ3SXZWUllpbTY6aDNlX0ZPMzVEV0F4THJzNjNpLXdTc0NPb1FBPQ==</StartArguments>
   </PropertyGroup>
   <PropertyGroup>
     <PublishUrlHistory>publish\</PublishUrlHistory>

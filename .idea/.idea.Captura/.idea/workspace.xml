@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc65c829-b0fd-494a-abc5-952c363adec6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/bin/Debug/Captura.Core.dll" afterPath="$PROJECT_DIR$/Captura.Core/bin/Debug/Captura.Core.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/bin/Debug/Captura.Core.pdb" afterPath="$PROJECT_DIR$/Captura.Core/bin/Debug/Captura.Core.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/bin/Debug/Screna.dll" afterPath="$PROJECT_DIR$/Captura.Core/bin/Debug/Screna.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/bin/Debug/Screna.pdb" afterPath="$PROJECT_DIR$/Captura.Core/bin/Debug/Screna.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/obj/Debug/Captura.Core.csproj.GenerateResource.Cache" afterPath="$PROJECT_DIR$/Captura.Core/obj/Debug/Captura.Core.csproj.GenerateResource.Cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/obj/Debug/Captura.Core.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/Captura.Core/obj/Debug/Captura.Core.csprojResolveAssemblyReference.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/obj/Debug/Captura.Core.dll" afterPath="$PROJECT_DIR$/Captura.Core/obj/Debug/Captura.Core.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/obj/Debug/Captura.Core.pdb" afterPath="$PROJECT_DIR$/Captura.Core/obj/Debug/Captura.Core.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/obj/Debug/Captura.Properties.Resources.resources" afterPath="$PROJECT_DIR$/Captura.Core/obj/Debug/Captura.Properties.Resources.resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/obj/Debug/CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/Captura.Core/obj/Debug/CoreCompileInputs.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterPath="$PROJECT_DIR$/Captura.Core/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll" afterPath="$PROJECT_DIR$/Captura.Core/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/bin/Debug/51live.exe" afterPath="$PROJECT_DIR$/Captura/bin/Debug/51live.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/bin/Debug/51live.pdb" afterPath="$PROJECT_DIR$/Captura/bin/Debug/51live.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/bin/Debug/Captura.Core.dll" afterPath="$PROJECT_DIR$/Captura/bin/Debug/Captura.Core.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/bin/Debug/Captura.Core.pdb" afterPath="$PROJECT_DIR$/Captura/bin/Debug/Captura.Core.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/bin/Debug/Screna.dll" afterPath="$PROJECT_DIR$/Captura/bin/Debug/Screna.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/bin/Debug/Screna.pdb" afterPath="$PROJECT_DIR$/Captura/bin/Debug/Screna.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/51live.exe" afterPath="$PROJECT_DIR$/Captura/obj/Debug/51live.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/51live.pdb" afterPath="$PROJECT_DIR$/Captura/obj/Debug/51live.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/51live_MarkupCompile.cache" afterPath="$PROJECT_DIR$/Captura/obj/Debug/51live_MarkupCompile.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/51live_MarkupCompile.i.cache" afterPath="$PROJECT_DIR$/Captura/obj/Debug/51live_MarkupCompile.i.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Captura.UI.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Captura.UI.csprojResolveAssemblyReference.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/Captura/obj/Debug/CoreCompileInputs.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterPath="$PROJECT_DIR$/Captura/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Screna/bin/Debug/Screna.dll" afterPath="$PROJECT_DIR$/Screna/bin/Debug/Screna.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Screna/bin/Debug/Screna.pdb" afterPath="$PROJECT_DIR$/Screna/bin/Debug/Screna.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Screna/obj/Debug/CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/Screna/obj/Debug/CoreCompileInputs.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Screna/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterPath="$PROJECT_DIR$/Screna/obj/Debug/DesignTimeResolveAssemblyReferences.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Screna/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterPath="$PROJECT_DIR$/Screna/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Screna/obj/Debug/Screna.dll" afterPath="$PROJECT_DIR$/Screna/obj/Debug/Screna.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Screna/obj/Debug/Screna.pdb" afterPath="$PROJECT_DIR$/Screna/obj/Debug/Screna.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Setup/Debug/Setup.msi" afterPath="$PROJECT_DIR$/Setup/Debug/Setup.msi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/Models/FFMpeg/FFMpegVideoWriter.cs" afterPath="$PROJECT_DIR$/Captura.Core/Models/FFMpeg/FFMpegVideoWriter.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/Properties/Resources.Designer.cs" afterPath="$PROJECT_DIR$/Captura.Core/Properties/Resources.Designer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/Properties/Resources.resx" afterPath="$PROJECT_DIR$/Captura.Core/Properties/Resources.resx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/Settings/Settings.cs" afterPath="$PROJECT_DIR$/Captura.Core/Settings/Settings.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/ViewModels/MainViewModel.cs" afterPath="$PROJECT_DIR$/Captura.Core/ViewModels/MainViewModel.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura.Core/obj/Debug/Captura.Core.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/Captura.Core/obj/Debug/Captura.Core.csproj.FileListAbsolute.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/App.xaml.cs" afterPath="$PROJECT_DIR$/Captura/App.xaml.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/Captura.UI.csproj" afterPath="$PROJECT_DIR$/Captura/Captura.UI.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/Captura.UI.csproj.user" afterPath="$PROJECT_DIR$/Captura/Captura.UI.csproj.user" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/MainWindow.xaml.cs" afterPath="$PROJECT_DIR$/Captura/MainWindow.xaml.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/51live_MarkupCompile.i.lref" afterPath="$PROJECT_DIR$/Captura/obj/Debug/51live_MarkupCompile.i.lref" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/51live_MarkupCompile.lref" afterPath="$PROJECT_DIR$/Captura/obj/Debug/51live_MarkupCompile.lref" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/App.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/App.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/App.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/App.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Captura.UI.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Captura.UI.csproj.FileListAbsolute.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/MainWindow.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/MainWindow.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/MainWindow.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/MainWindow.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Presentation/Controls/RecentItem.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Presentation/Controls/RecentItem.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Presentation/Controls/RecentItem.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Presentation/Controls/RecentItem.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Presentation/Controls/RegionSelector.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Presentation/Controls/RegionSelector.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Presentation/Controls/RegionSelector.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Presentation/Controls/RegionSelector.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Presentation/Controls/ScreenShotBalloon.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Presentation/Controls/ScreenShotBalloon.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Presentation/Controls/ScreenShotBalloon.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Presentation/Controls/ScreenShotBalloon.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Presentation/Controls/TextBalloon.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Presentation/Controls/TextBalloon.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Presentation/Controls/TextBalloon.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Presentation/Controls/TextBalloon.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/AboutView.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/AboutView.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/AboutView.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/AboutView.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/AudioEditor.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/AudioEditor.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/AudioEditor.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/AudioEditor.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/ConfigView.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/ConfigView.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/ConfigView.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/ConfigView.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/ExtrasView.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/ExtrasView.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/ExtrasView.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/ExtrasView.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/FFMpegDownloader.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/FFMpegDownloader.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/FFMpegDownloader.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/FFMpegDownloader.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/FFMpegLogView.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/FFMpegLogView.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/FFMpegLogView.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/FFMpegLogView.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/FFMpegView.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/FFMpegView.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/FFMpegView.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/FFMpegView.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/HotkeyView.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/HotkeyView.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/HotkeyView.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/HotkeyView.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/MainView.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/MainView.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/MainView.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/MainView.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/MouseKeyHookView.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/MouseKeyHookView.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/MouseKeyHookView.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/MouseKeyHookView.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/ProxyView.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/ProxyView.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/ProxyView.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/ProxyView.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/WebCamWindow.g.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/WebCamWindow.g.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/obj/Debug/Views/WebCamWindow.g.i.cs" afterPath="$PROJECT_DIR$/Captura/obj/Debug/Views/WebCamWindow.g.i.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Captura/packages.config" afterPath="$PROJECT_DIR$/Captura/packages.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Screna/Recorder/Recorder.cs" afterPath="$PROJECT_DIR$/Screna/Recorder/Recorder.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Screna/obj/Debug/Screna.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/Screna/obj/Debug/Screna.csproj.FileListAbsolute.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Setup/Setup.vdproj" afterPath="$PROJECT_DIR$/Setup/Setup.vdproj" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Recorder.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Screna/Recorder/Recorder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <marker date="1502244612223" expanded="false" signature="6:172" ph="..." />
+                <marker date="1502244612223" expanded="true" signature="190:7411" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="197:386" ph="/// Default implementation of &lt;see cref=&quot;IRecorder&quot;/&gt; interface. ... " />
+                <marker date="1502244612223" expanded="true" signature="424:7409" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="439:889" ph="Fields" />
+                <marker date="1502244612223" expanded="true" signature="899:1345" ph="/// Creates a new instance of &lt;see cref=&quot;IRecorder&quot;/&gt; writing to &lt;see cref=&quot;IVideoFileWriter&quot;/&gt;. ... " />
+                <marker date="1502244612223" expanded="true" signature="1493:2315" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="2325:2626" ph="/// Creates a new instance of &lt;see cref=&quot;IRecorder&quot;/&gt; writing to &lt;see cref=&quot;IAudioFileWriter&quot;/&gt;. ... " />
+                <marker date="1502244612223" expanded="true" signature="2710:3026" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="3050:3481" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="3076:3331" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="3135:3317" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="3363:3471" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="3506:5091" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="3532:4941" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="3742:4927" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="3894:4021" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="4075:4151" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="4344:4705" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="4394:4537" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="4595:4683" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="4973:5081" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="5174:5413" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="5200:5289" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="5329:5403" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="5423:6888" ph="Dispose" />
+                <marker date="1502244612223" expanded="true" signature="5503:6383" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="5529:6275" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="5705:6137" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="6307:6373" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="6393:6484" ph="/// Frees all resources used by this instance. ... " />
+                <marker date="1502244612223" expanded="true" signature="6514:6567" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="6602:6677" ph="/// Fired when an error occurs ... " />
+                <marker date="1502244612223" expanded="true" signature="6762:6868" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="6898:6963" ph="/// Start Recording. ... " />
+                <marker date="1502244612223" expanded="true" signature="6991:7147" ph="{...}" />
+                <marker date="1502244612223" expanded="true" signature="7157:7221" ph="/// Stop Recording. ... " />
+                <marker date="1502244612223" expanded="true" signature="7248:7403" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Captura.Core/ViewModels/Properties.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Screna/Recorder/Recorder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Captura.Core/ViewModels/MainViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Captura.Core/ViewModels/MainViewModel.cs" />
+        <option value="$PROJECT_DIR$/Screna/Recorder/Recorder.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Captura (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Captura (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Screna" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Captura (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Screna" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Recorder" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Captura (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Captura.Core" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Captura (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Captura.Core" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ViewModels" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Captura/Captura.UI.csproj" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.6.1" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Captura/bin/Debug/51live.exe" />
+      <option name="PROGRAM_PARAMETERS" value="shishuo://push.51shangke.com?meeting_id=5989660ead48ea3e943ad37e&amp;meeting_name=qweqweq&amp;hoster_id=asdasdasdasd&amp;hoster_name=asdasdasd&amp;timestramp=1502178178352&amp;sign=7e3f5e136552fc3a6a83c0f0c99500a3&amp;meeting_push_uri=cnRtcDovL3B1Ymxpc2gtcnRtcC41MXNoYW5na2UuY24vNTEtbGl2ZS81MWxpdmVwdXNoNTk4OTY2MGVhZDQ4ZWEzZTk0M2FkMzdlP2U9MTUwMjE3ODI5OCZ0b2tlbj1YSWtsMkV6VC1xVWhna2Vzd2hBMHQyTVRBZ2JBSWR0N0l2VlJZaW02OmsyS29vSC1nNG94ekZmbG5KLU84SU9QVVFmZz0=" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc65c829-b0fd-494a-abc5-952c363adec6" name="Default" comment="" />
+      <created>1502242957744</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1502242957744</updated>
+      <workItem from="1502242960028" duration="1493000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1493000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Captura.Core/ViewModels/Properties.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502155265819" expanded="false" signature="6:200" ph="..." />
+            <marker date="1502155265819" expanded="true" signature="230:5616" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="271:5614" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="491:1384" ph="Time" />
+            <marker date="1502155265819" expanded="true" signature="559:777" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="609:767" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="830:1066" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="886:1056" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="1123:1365" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="1181:1355" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="1463:1817" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="1938:2373" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="1999:2363" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="2517:2784" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="2862:3129" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="3140:3919" ph="ScreenShot" />
+            <marker date="1502155265819" expanded="true" signature="3228:3503" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="3625:3900" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="3694:3890" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="3937:5315" ph="Commands" />
+            <marker date="1502155265819" expanded="true" signature="4346:4468" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="4619:5038" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="4700:4876" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="4877:5028" ph="{...}" />
+            <marker date="1502155265819" expanded="true" signature="5325:5608" ph="Nested ViewModels" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Captura.Core/ViewModels/MainViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="516" column="13" lean-forward="false" selection-start-line="516" selection-start-column="13" selection-end-line="516" selection-end-column="13" />
+          <folding>
+            <marker date="1502244413711" expanded="true" signature="6:339" ph="..." />
+            <marker date="1502244413711" expanded="true" signature="369:22046" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="439:22044" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="454:1062" ph="Fields" />
+            <marker date="1502244413711" expanded="true" signature="885:1042" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="936:1032" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="1094:3198" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="1117:3188" ph="Commands" />
+            <marker date="1502244413711" expanded="true" signature="1555:1944" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="1589:1816" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="1852:1930" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="2002:2259" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="2315:3155" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="2388:2742" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="2763:3141" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="3232:6716" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="3255:4416" ph="Restore Video Source" />
+            <marker date="1502244413711" expanded="true" signature="3784:4392" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="4558:4945" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="5050:5399" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="5514:5865" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="5986:6260" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="6381:6706" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="6833:9448" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="6931:7050" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="7127:7522" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="7184:7508" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="7588:7986" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="7645:7972" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="9473:11300" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="9496:10525" ph="Remember Video Source" />
+            <marker date="1502244413711" expanded="true" signature="9586:10501" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="11377:11715" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="11607:11705" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="11782:12084" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="12131:12484" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="12556:12892" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="12636:12812" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="12945:13765" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="13061:13177" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="13194:13755" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="13557:13692" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="13834:15644" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="14136:15590" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="14482:15104" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="14654:14908" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="15175:15280" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="15704:18626" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="15957:16212" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="16020:16162" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="16618:16792" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="17711:18190" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="18315:18521" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="18379:18505" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="18668:18976" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="19007:19342" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="19445:20308" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="19901:20264" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="20351:21025" ph="{...}" />
+            <marker date="1502244413711" expanded="true" signature="21068:22038" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Screna/Recorder/Recorder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <marker date="1502244612223" expanded="false" signature="6:172" ph="..." />
+            <marker date="1502244612223" expanded="true" signature="190:7411" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="197:386" ph="/// Default implementation of &lt;see cref=&quot;IRecorder&quot;/&gt; interface. ... " />
+            <marker date="1502244612223" expanded="true" signature="424:7409" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="439:889" ph="Fields" />
+            <marker date="1502244612223" expanded="true" signature="899:1345" ph="/// Creates a new instance of &lt;see cref=&quot;IRecorder&quot;/&gt; writing to &lt;see cref=&quot;IVideoFileWriter&quot;/&gt;. ... " />
+            <marker date="1502244612223" expanded="true" signature="1493:2315" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="2325:2626" ph="/// Creates a new instance of &lt;see cref=&quot;IRecorder&quot;/&gt; writing to &lt;see cref=&quot;IAudioFileWriter&quot;/&gt;. ... " />
+            <marker date="1502244612223" expanded="true" signature="2710:3026" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="3050:3481" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="3076:3331" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="3135:3317" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="3363:3471" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="3506:5091" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="3532:4941" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="3742:4927" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="3894:4021" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="4075:4151" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="4344:4705" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="4394:4537" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="4595:4683" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="4973:5081" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="5174:5413" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="5200:5289" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="5329:5403" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="5423:6888" ph="Dispose" />
+            <marker date="1502244612223" expanded="true" signature="5503:6383" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="5529:6275" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="5705:6137" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="6307:6373" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="6393:6484" ph="/// Frees all resources used by this instance. ... " />
+            <marker date="1502244612223" expanded="true" signature="6514:6567" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="6602:6677" ph="/// Fired when an error occurs ... " />
+            <marker date="1502244612223" expanded="true" signature="6762:6868" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="6898:6963" ph="/// Start Recording. ... " />
+            <marker date="1502244612223" expanded="true" signature="6991:7147" ph="{...}" />
+            <marker date="1502244612223" expanded="true" signature="7157:7221" ph="/// Stop Recording. ... " />
+            <marker date="1502244612223" expanded="true" signature="7248:7403" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

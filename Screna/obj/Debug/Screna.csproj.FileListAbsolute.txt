@@ -3,3 +3,8 @@ C:\Users\tc949\Desktop\Captura-master\src\Screna\bin\Debug\Screna.pdb
 C:\Users\tc949\Desktop\Captura-master\src\Screna\obj\Debug\Screna.csprojResolveAssemblyReference.cache
 C:\Users\tc949\Desktop\Captura-master\src\Screna\obj\Debug\Screna.dll
 C:\Users\tc949\Desktop\Captura-master\src\Screna\obj\Debug\Screna.pdb
+C:\Users\tc949\Documents\GitHub\moondust-git\captura\Screna\bin\Debug\Screna.dll
+C:\Users\tc949\Documents\GitHub\moondust-git\captura\Screna\bin\Debug\Screna.pdb
+C:\Users\tc949\Documents\GitHub\moondust-git\captura\Screna\obj\Debug\Screna.csprojResolveAssemblyReference.cache
+C:\Users\tc949\Documents\GitHub\moondust-git\captura\Screna\obj\Debug\Screna.dll
+C:\Users\tc949\Documents\GitHub\moondust-git\captura\Screna\obj\Debug\Screna.pdb

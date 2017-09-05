@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            foreach (var ag in args)
+            {
+                Console.WriteLine(ag);
+            }
+            string a = Console.ReadLine();
+            Console.WriteLine(a);
+        }
+    }
+}

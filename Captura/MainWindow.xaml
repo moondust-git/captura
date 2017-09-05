@@ -6,7 +6,7 @@
         DataContext="{StaticResource MainViewModel}"
         WindowStyle="None"
         ResizeMode="CanMinimize"
-        Icon="Captura.ico"
+        Icon="resource/favicon.ico"
         SizeToContent="Height"
         MaxWidth="{local:Loc WindowWidth}"
         MinWidth="{local:Loc WindowWidth}"

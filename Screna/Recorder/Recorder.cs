@@ -15,6 +15,7 @@ namespace Screna
     public class Recorder : IRecorder
     {
         #region Fields
+
         readonly IAudioProvider _audioProvider;
         readonly IVideoFileWriter _videoWriter;
         readonly IAudioFileWriter _audioWriter;
@@ -28,6 +29,7 @@ namespace Screna
         readonly ManualResetEvent _continueCapturing;
 
         readonly Task _writeTask, _recordTask;
+
         #endregion
 
         /// <summary>
@@ -37,7 +39,8 @@ namespace Screna
         /// <param name="ImageProvider">The image source.</param>
         /// <param name="FrameRate">Video Frame Rate.</param>
         /// <param name="AudioProvider">The audio source. null = no audio.</param>
-        public Recorder(IVideoFileWriter VideoWriter, IImageProvider ImageProvider, int FrameRate, IAudioProvider AudioProvider = null)
+        public Recorder(IVideoFileWriter VideoWriter, IImageProvider ImageProvider, int FrameRate,
+            IAudioProvider AudioProvider = null)
         {
             _videoWriter = VideoWriter ?? throw new ArgumentNullException(nameof(VideoWriter));
             _imageProvider = ImageProvider ?? throw new ArgumentNullException(nameof(ImageProvider));
@@ -97,13 +100,13 @@ namespace Screna
             {
                 var frameInterval = TimeSpan.FromSeconds(1.0 / _frameRate);
                 var frameCount = 0;
-                
+
                 while (_continueCapturing.WaitOne() && !_frames.IsAddingCompleted)
                 {
                     var timestamp = DateTime.Now;
 
                     var frame = _imageProvider.Capture();
-                    
+
                     try
                     {
                         _frames.Add(frame);
@@ -148,39 +151,54 @@ namespace Screna
 
         void AudioProvider_DataAvailable(object sender, DataAvailableEventArgs e)
         {
-            _videoWriter.WriteAudio(e.Buffer, e.Length);            
+            try
+            {
+                _videoWriter.WriteAudio(e.Buffer, e.Length);
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+            }
         }
 
         #region Dispose
+
         void Dispose(bool TerminateRecord, bool TerminateWrite)
         {
-            ThrowIfDisposed();
-
-            _audioProvider?.Stop();
-            _audioProvider?.Dispose();
-
-            if (_videoWriter != null)
+            try
             {
-                _frames.CompleteAdding();
+                ThrowIfDisposed();
 
-                _continueCapturing.Set();
+                _audioProvider?.Stop();
+                _audioProvider?.Dispose();
 
-                if (TerminateRecord)
-                    _recordTask.Wait();
+                if (_videoWriter != null)
+                {
+                    _frames.CompleteAdding();
 
-                if (TerminateWrite)
-                    _writeTask.Wait();
+                    _continueCapturing.Set();
 
-                _videoWriter.Dispose();
-                _frames.Dispose();
+                    if (TerminateRecord)
+                        _recordTask.Wait();
 
-                _continueCapturing.Close();
+                    if (TerminateWrite)
+                        _writeTask.Wait();
+
+                    _videoWriter.Dispose();
+                    _frames.Dispose();
+
+                    _continueCapturing.Close();
+                }
+                else _audioWriter.Dispose();
+
+                _imageProvider?.Dispose();
+
+                _disposed = true;
             }
-            else _audioWriter.Dispose();
-
-            _imageProvider?.Dispose();
-
-            _disposed = true;
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
         }
 
         /// <summary>
@@ -203,6 +221,7 @@ namespace Screna
             if (_disposed)
                 throw new ObjectDisposedException("this");
         }
+
         #endregion
 
         /// <summary>
@@ -215,7 +234,7 @@ namespace Screna
             _sw?.Start();
 
             _audioProvider?.Start();
-            
+
             _continueCapturing?.Set();
         }
 
@@ -226,7 +245,7 @@ namespace Screna
         {
             ThrowIfDisposed();
 
-            _continueCapturing?.Reset();            
+            _continueCapturing?.Reset();
             _audioProvider?.Stop();
 
             _sw?.Stop();

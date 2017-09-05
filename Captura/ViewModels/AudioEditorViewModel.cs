@@ -57,7 +57,7 @@ namespace Captura
                 OnPropertyChanged();
             }
         }
-        
+
         public TimeSpan Duration
         {
             get => _duration;
@@ -75,11 +75,11 @@ namespace Captura
 
             if (_player == null)
                 _player = new MediaPlayer();
-            
+
             _player.Open(new Uri(FileName));
 
             Begin = Current = TimeSpan.Zero;
-            End = Duration = _player.NaturalDuration.TimeSpan;            
+            End = Duration = _player.NaturalDuration.TimeSpan;
         }
 
         public ICommand CropCommand { get; }
@@ -88,7 +88,8 @@ namespace Captura
 
         void Crop()
         {
-            Process.Start(FFMpegService.FFMpegExePath, $"-y -ss {(int)_begin.TotalSeconds} -i {_fileName} -t {(int)(_end.TotalSeconds - _begin.TotalSeconds)} -acodec copy {_fileName}");
+            Process.Start(FFMpegService.FFMpegExePath,
+                $"-y -ss {(int) _begin.TotalSeconds} -i {_fileName} -t {(int) (_end.TotalSeconds - _begin.TotalSeconds)} -acodec copy {_fileName}");
         }
 
         void Reset()

@@ -102,7 +102,7 @@ namespace Captura
             get => Get<List<RecentItemModel>>();
             set => Set(value);
         }
-        
+
         [UserScopedSetting]
         [DefaultSettingValue("30")]
         public int RecentMax
@@ -110,14 +110,14 @@ namespace Captura
             get => Get<int>();
             set => Set(value);
         }
-        
+
         [UserScopedSetting]
         public string OutPath
         {
             get => Get<string>();
             set => Set(value);
         }
-        
+
         [UserScopedSetting]
         public string FFMpegFolder
         {
@@ -140,7 +140,7 @@ namespace Captura
             get => Get<bool>();
             set => Set(value);
         }
-        
+
         [UserScopedSetting]
         [DefaultSettingValue("70")]
         public int VideoQuality
@@ -172,7 +172,7 @@ namespace Captura
             get => Get<bool>();
             set => Set(value);
         }
-        
+
         [UserScopedSetting]
         [DefaultSettingValue("en-US")]
         public string Language
@@ -206,6 +206,7 @@ namespace Captura
         }
 
         #region Transforms
+
         [UserScopedSetting]
         [DefaultSettingValue("False")]
         public bool DoResize
@@ -213,7 +214,7 @@ namespace Captura
             get => Get<bool>();
             set => Set(value);
         }
-        
+
         [UserScopedSetting]
         [DefaultSettingValue("640")]
         public int ResizeWidth
@@ -221,7 +222,7 @@ namespace Captura
             get => Get<int>();
             set => Set(value);
         }
-        
+
         [UserScopedSetting]
         [DefaultSettingValue("400")]
         public int ResizeHeight
@@ -253,9 +254,11 @@ namespace Captura
             get => Get<RotateBy>();
             set => Set(value);
         }
+
         #endregion
 
         #region Gif
+
         [UserScopedSetting]
         [DefaultSettingValue("False")]
         public bool GifRepeat
@@ -263,7 +266,7 @@ namespace Captura
             get => Get<bool>();
             set => Set(value);
         }
-        
+
         [UserScopedSetting]
         [DefaultSettingValue("0")]
         public int GifRepeatCount
@@ -279,8 +282,9 @@ namespace Captura
             get => Get<bool>();
             set => Set(value);
         }
+
         #endregion
-        
+
         [UserScopedSetting]
         [DefaultSettingValue("3")]
         public int RegionBorderThickness
@@ -304,5 +308,46 @@ namespace Captura
             get => Get<Color>();
             set => Set(value);
         }
+
+
+        #region meeting_info
+
+        [UserScopedSetting]
+        public string MeetingId
+        {
+            get => Get<string>();
+            set => Set(value);
+        }
+
+        [UserScopedSetting]
+        public string MeetingName
+        {
+            get => Get<string>();
+            set => Set(value);
+        }
+
+
+        [UserScopedSetting]
+        public string HosterId
+        {
+            get => Get<string>();
+            set => Set(value);
+        }
+
+        [UserScopedSetting]
+        public string HosterName
+        {
+            get => Get<string>();
+            set => Set(value);
+        }
+
+
+        [UserScopedSetting]
+        public string MeetingPushUrl
+        {
+            get => Get<string>();
+            set => Set(value);
+        }
+        #endregion
     }
 }

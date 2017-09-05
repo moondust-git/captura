@@ -510,10 +510,13 @@
   <data name="recordingExit" xml:space="preserve">
     <value>A Recording is in progress. Are you sure you want to exit?</value>
   </data>
-  <data name="ErrorRun" xml:space="preserve">
-    <value>启动参数异常</value>
+  <data name="StartParamError" xml:space="preserve">
+    <value>start param error or null</value>
   </data>
-  <data name="ErrorRunTitle" xml:space="preserve">
-    <value>启动失败</value>
+  <data name="validateId" xml:space="preserve">
+    <value>80128d52-bdc8-405e-969a-7c574e2b461b</value>
+  </data>
+  <data name="validateName" xml:space="preserve">
+    <value>51livetool</value>
   </data>
 </root>

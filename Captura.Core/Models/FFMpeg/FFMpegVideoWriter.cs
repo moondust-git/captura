@@ -39,22 +39,27 @@ namespace Captura.Models
             var audioPipeName = GetPipeName();
             var videoPipeName = GetPipeName();
 
-            var videoInArgs = $"-framerate {FrameRate} -f rawvideo -pix_fmt rgb32 -video_size {ImageProvider.Width}x{ImageProvider.Height} -i {pipePrefix}{videoPipeName}";
-            var videoOutArgs = $"{VideoArgsProvider(VideoQuality)} -r {FrameRate}";
+            var videoInArgs =
+                $"-framerate {FrameRate} -f rawvideo -pix_fmt rgb32 -video_size {ImageProvider.Width}x{ImageProvider.Height} -i {pipePrefix}{videoPipeName}";
+            var videoOutArgs = $"{VideoArgsProvider(VideoQuality)} -r {FrameRate} -s 1280x720 -b 1200";
 
             string audioInArgs = "", audioOutArgs = "";
-            
+
             if (AudioProvider != null)
             {
-                audioInArgs = $"-f s16le -acodec pcm_s16le -ar {Frequency} -ac {Channels} -i {pipePrefix}{audioPipeName}";
-                audioOutArgs = AudioArgsProvider(AudioQuality);
+                audioInArgs =
+                    $"-f s16le -acodec pcm_s16le -ar {Frequency} -ac {Channels} -i {pipePrefix}{audioPipeName}";
+                audioOutArgs = $"{AudioArgsProvider(AudioQuality)}  -acodec aac";
 
-                _audioPipe = new NamedPipeServerStream(audioPipeName, PipeDirection.Out, 1, PipeTransmissionMode.Byte, PipeOptions.Asynchronous, 10000, 10000);
+                _audioPipe = new NamedPipeServerStream(audioPipeName, PipeDirection.Out, 1, PipeTransmissionMode.Byte,
+                    PipeOptions.Asynchronous, 10000, 10000);
             }
+            _ffmpegIn = new NamedPipeServerStream(videoPipeName, PipeDirection.Out, 1, PipeTransmissionMode.Byte,
+                PipeOptions.Asynchronous, 10000, 10000);
 
-            _ffmpegIn = new NamedPipeServerStream(videoPipeName, PipeDirection.Out, 1, PipeTransmissionMode.Byte, PipeOptions.Asynchronous, 10000, 10000);
-
-            _ffmpegProcess = FFMpegService.StartFFMpeg($"{videoInArgs} {audioInArgs} {videoOutArgs} {audioOutArgs} \"{FileName}\"");
+            string pushArgs = $"-f flv {FileName}";
+            string ffmpegCmd = $"{videoInArgs} {audioInArgs} {videoOutArgs} {audioOutArgs} {pushArgs}";
+            _ffmpegProcess = FFMpegService.StartFFMpeg(ffmpegCmd);
         }
 
         /// <summary>
@@ -62,13 +67,21 @@ namespace Captura.Models
         /// </summary>
         public void Dispose()
         {
-            _ffmpegIn.Flush();
-            _ffmpegIn.Close();
+            try
+            {
+                _ffmpegIn.Flush();
+                _ffmpegIn.Close();
 
-            _audioPipe?.Flush();
-            _audioPipe?.Dispose();
+                _audioPipe?.Flush();
+                _audioPipe?.Dispose();
 
-            _ffmpegProcess.WaitForExit();
+                _ffmpegProcess.WaitForExit();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw new Exception("pipeError");
+            }
         }
 
         /// <summary>
@@ -101,7 +114,7 @@ namespace Captura.Models
         }
 
         int lastFrameHash;
-        
+
         /// <summary>
         /// Writes an Image frame.
         /// </summary>
@@ -123,14 +136,15 @@ namespace Captura.Models
             {
                 using (Image)
                 {
-                    var bits = Image.LockBits(new Rectangle(Point.Empty, Image.Size), ImageLockMode.ReadOnly, PixelFormat.Format32bppRgb);
+                    var bits = Image.LockBits(new Rectangle(Point.Empty, Image.Size), ImageLockMode.ReadOnly,
+                        PixelFormat.Format32bppRgb);
                     Marshal.Copy(bits.Scan0, _videoBuffer, 0, _videoBuffer.Length);
                     Image.UnlockBits(bits);
                 }
 
                 lastFrameHash = hash;
             }
-            
+
             _ffmpegIn.WriteAsync(_videoBuffer, 0, _videoBuffer.Length);
         }
     }

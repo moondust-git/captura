@@ -322,24 +322,6 @@ namespace Captura.Properties {
         }
         
         /// <summary>
-        ///   查找类似 启动参数异常 的本地化字符串。
-        /// </summary>
-        public static string ErrorRun {
-            get {
-                return ResourceManager.GetString("ErrorRun", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 启动失败 的本地化字符串。
-        /// </summary>
-        public static string ErrorRunTitle {
-            get {
-                return ResourceManager.GetString("ErrorRunTitle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   查找类似 Exit 的本地化字符串。
         /// </summary>
         public static string Exit {
@@ -1069,6 +1051,15 @@ namespace Captura.Properties {
         }
         
         /// <summary>
+        ///   查找类似 start param error or null 的本地化字符串。
+        /// </summary>
+        public static string StartParamError {
+            get {
+                return ResourceManager.GetString("StartParamError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 Start/Stop Recording 的本地化字符串。
         /// </summary>
         public static string StartStopRecording {
@@ -1137,6 +1128,24 @@ namespace Captura.Properties {
         public static string UserName {
             get {
                 return ResourceManager.GetString("UserName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 80128d52-bdc8-405e-969a-7c574e2b461b 的本地化字符串。
+        /// </summary>
+        public static string validateId {
+            get {
+                return ResourceManager.GetString("validateId", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 51livetool 的本地化字符串。
+        /// </summary>
+        public static string validateName {
+            get {
+                return ResourceManager.GetString("validateName", resourceCulture);
             }
         }
         
